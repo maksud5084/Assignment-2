@@ -1,86 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-  padding: 0;
-  margin: 0;
-  max-width: 1140px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  background-color: #f5f8ff;
+    background-color: #f5f8ff;
+}
+
+img {
+    width: 100%;
+    height: 100%;
 }
 
 /* shared styles */
 .display-flex {
-  display: flex;
+    display: flex;
 }
+
 .gray-color {
-  color: #8987a1;
-  font-size: 1rem;
+    color: #8987a1;
+    font-size: 1rem;
 }
-.banner-description {
-  color: #000000;
-  font-size: 1.35rem;
+
+.description {
+    color: #00000050;
+    font-size: 1.35rem;
 }
+
 /* header styles */
+header {
+    max-width: 1170px;
+    margin: 0 auto;
+}
 
 /* navbar styles */
 .navbar {
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 30px;
-  margin-bottom: 120px;
-  /* height: 71px; */
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 120px;
+  
 }
-/* .menu-items{
-    gap: 48px;
-} */
+
+.nav-menu {
+    gap: 20px;
+}
+
+.menu-items {
+    gap: 20px;
+}
 
 .navbar .menu-items li {
-  list-style: none;
-  margin-right: 48px;
-}
-.navbar li .menu-link {
-  text-decoration: none;
-}
-ul .hidden li:first-child {
-  font-weight: 700;
-  color: #252432;
-}
-.fa-solid {
-  margin-right: 7px;
-}
-/* banner styles */
-.banner {
-  justify-content: center;
-  align-items: center;
-  height: 461px;
-  margin-bottom: 120px;
-}
-.banner-content {
-  width: 570px;
-  height: 355px;
-  /* padding-top: 297px; */
-}
-.banner-title {
-  font-weight: 700;
-  font-size: 4rem;
-  color: #000000;
-}
-.fresh-flower{
-    color: #E95A08;
+    list-style: none;
+
 }
 
-.banner-image {
-  width: 570px;
-  height: 355px;
+.navbar li .menu-link {
+    text-decoration: none;
 }
-.banner .banner-iamge {
-  width: 100%;
+
+ul .hidden li:first-child {
+    font-weight: 700;
+    color: #252432;
+}
+
+.fa-solid {
+    margin-right: 7px;
+}
+
+/* banner styles */
+.banner {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+
+
+.banner-title {
+    font-weight: 700;
+    font-size: 4rem;
+    color: #000000;
+}
+
+.fresh-flower {
+    color: #E95A08;
+}
+/* our plants section style */
+.plants{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.plants-text{
+    margin-bottom: 50px;
+}
+
+.plants-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #000000;
+}
+.plants-text p{
+    text-align: center;
+}
+.plants-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+.cards{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.card-text{
+    flex-direction: column;
+    align-items: center;
+}
+.card-name{
+color: #111111;
+font-weight: 600;
+font-size: 1.35rem;
+margin-bottom: 10px;
+}
+.price{
+    color: #111111;
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.btn-primary{
+    display: block;
+    background-color: #E95A08;
+    padding: 10px 100px;
 }
 
 @media screen and (max-width: 576px) {
-  .hidden {
-    display: none;
-  }
-  .banner{
-    flex-direction: column-reverse;
-  }
+    header {
+        width: 400px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+    .plants-cards{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
