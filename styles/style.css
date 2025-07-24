@@ -1,0 +1,86 @@
+body {
+  padding: 0;
+  margin: 0;
+  max-width: 1140px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #f5f8ff;
+}
+
+/* shared styles */
+.display-flex {
+  display: flex;
+}
+.gray-color {
+  color: #8987a1;
+  font-size: 1rem;
+}
+.banner-description {
+  color: #000000;
+  font-size: 1.35rem;
+}
+/* header styles */
+
+/* navbar styles */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 120px;
+  /* height: 71px; */
+}
+/* .menu-items{
+    gap: 48px;
+} */
+
+.navbar .menu-items li {
+  list-style: none;
+  margin-right: 48px;
+}
+.navbar li .menu-link {
+  text-decoration: none;
+}
+ul .hidden li:first-child {
+  font-weight: 700;
+  color: #252432;
+}
+.fa-solid {
+  margin-right: 7px;
+}
+/* banner styles */
+.banner {
+  justify-content: center;
+  align-items: center;
+  height: 461px;
+  margin-bottom: 120px;
+}
+.banner-content {
+  width: 570px;
+  height: 355px;
+  /* padding-top: 297px; */
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 4rem;
+  color: #000000;
+}
+.fresh-flower{
+    color: #E95A08;
+}
+
+.banner-image {
+  width: 570px;
+  height: 355px;
+}
+.banner .banner-iamge {
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .hidden {
+    display: none;
+  }
+  .banner{
+    flex-direction: column-reverse;
+  }
+}
