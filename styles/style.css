@@ -87,7 +87,7 @@ ul .hidden li:first-child {
 .fresh-flower {
     color: #E95A08;
 }
-/* our plants section style */
+/*  plants section style */
 .plants{
     max-width: 1170px;
     margin: 0 auto;
@@ -138,7 +138,38 @@ margin-bottom: 10px;
     background-color: #E95A08;
     padding: 10px 100px;
 }
+/* plants section end  */
 
+/* flower lover section styles */
+.flower-lover{
+    max-width: 1170px;
+    margin: 210px auto 0 auto;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.man-image{
+    position: relative;
+}
+.challenge{
+    width: 50%;
+    position: absolute;
+    top: -280px;
+    left: 365px;
+}
+.lover-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color:rgb(0, 0, 0) ;
+    margin-bottom: 20px;
+}
+.flower-lover ul li{
+    margin-bottom: 20px;
+}
+/* flower lover section end  */
+
+/* responsiveness for mobile device */
 @media screen and (max-width: 576px) {
     header {
         width: 400px;
@@ -153,5 +184,11 @@ margin-bottom: 10px;
     }
     .plants-cards{
         grid-template-columns: repeat(2,1fr);
+    }
+    .flower-lover{
+        flex-direction: column;
+    }
+    .challenge{
+        display: none;
     }
 }
