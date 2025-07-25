@@ -1,295 +1,356 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-     font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-    background-color: #f5f8ff;
+  background-color: #f5f8ff;
 }
 
 img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 /* shared styles */
 .display-flex {
-    display: flex;
+  display: flex;
 }
 
 .gray-color {
-    color: #8987a1;
-    font-size: 1rem;
+  color: #8987a1;
+  font-size: 1rem;
 }
 
 .description {
-    color: #00000050;
-    font-size: 1.35rem;
+  color: #00000050;
+  font-size: 1.35rem;
 }
 .fresh-flower {
-    color: #E95A08;
+  color: #e95a08;
 }
 
 /* header styles */
 header {
-    max-width: 1170px;
-    margin: 0 auto;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 
 /* navbar styles */
 .navbar {
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
-    margin-bottom: 120px;
-  
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 120px;
 }
 
 .nav-menu {
-    gap: 20px;
+  gap: 20px;
 }
 
 .menu-items {
-    gap: 20px;
+  gap: 20px;
 }
 
-.navbar .menu-items li {
-    list-style: none;
-
+.navbar  .menu-items li {
+  list-style: none;
 }
 
 .navbar li .menu-link {
-    text-decoration: none;
+  text-decoration: none;
+  color: #000000;
 }
 
-ul .hidden li:first-child {
-    font-weight: 700;
-    color: #252432;
+ul  .nav-menu  li:first-child {
+  font-weight: 700;
+  color: #252432;
 }
 
 .fa-solid {
-    margin-right: 7px;
+  margin-right: 7px;
 }
+
+
 
 /* banner styles */
 .banner {
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 120px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
 }
 
-
-
 .banner-title {
-    font-weight: 700;
-    font-size: 4rem;
-    color: #000000;
+  font-weight: 700;
+  font-size: 4rem;
+  color: #000000;
 }
 /* header styles end  */
 
 /*  plants section style */
-.plants{
-    max-width: 1170px;
-    margin: 0 auto;
+.plants {
+  max-width: 1170px;
+  margin: 0 auto;
 }
-.plants-text{
-    margin-bottom: 50px;
+.plants-text {
+  margin-bottom: 50px;
 }
 
-.plants-title{
-    text-align: center;
-    font-weight: 700;
-    font-size: 3rem;
-    color: #000000;
+.plants-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #000000;
 }
-.plants-text p{
-    text-align: center;
+.plants-text p {
+  text-align: center;
 }
-.plants-cards{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 20px;
+.plants-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
 }
-.cards{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+.cards {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
-.card-text{
-    flex-direction: column;
-    align-items: center;
+.card-text {
+  flex-direction: column;
+  align-items: center;
 }
-.card-name{
-color: #111111;
-font-weight: 600;
-font-size: 1.35rem;
-margin-bottom: 10px;
+.card-name {
+  color: #111111;
+  font-weight: 600;
+  font-size: 1.35rem;
+  margin-bottom: 10px;
 }
-.price{
-    color: #111111;
-    font-size: 1.35rem;
-    font-weight: 700;
-    margin-bottom: 20px;
+.price {
+  color: #111111;
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
-.btn-primary{
-    display: block;
-    background-color: #E95A08;
-    padding: 10px 100px;
-    color: white;
+.btn-primary {
+  display: block;
+  background-color: #e95a08;
+  padding: 10px 100px;
+  color: white;
 }
 /* plants section end  */
 
 /* flower lover section challenge part 1 styles */
-.flower-lover{
-    max-width: 1170px;
-    margin: 210px auto 0 auto;
-    display: flex;
-    gap: 60px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 130px;
+.flower-lover {
+  max-width: 1170px;
+  margin: 210px auto 0 auto;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 130px;
 }
-.man-image{
-    position: relative;
+.man-image {
+  position: relative;
 }
-.challenge{
-    width: 50%;
-    position: absolute;
-    top: -280px;
-    left: 365px;
+.challenge {
+  width: 50%;
+  position: absolute;
+  top: -280px;
+  left: 365px;
 }
-.lover-title{
-    font-size: 3rem;
-    font-weight: 700;
-    color:rgb(0, 0, 0) ;
-    margin-bottom: 20px;
+.lover-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
 }
-.flower-lover ul li{
-    margin-bottom: 20px;
+.flower-lover ul li {
+  margin-bottom: 20px;
 }
 /* flower lover section end  */
 
-
 /* latest deal section and challenge part 2 styles  */
-.latest-deal{
-    max-width: 1170px;
-    margin:0 auto 200px auto;
+.latest-deal {
+  max-width: 1170px;
+  margin: 0 auto 200px auto;
 }
-.latest-deal-text{
-    text-align: center;
-    margin-bottom: 120px;
+.latest-deal-text {
+  text-align: center;
+  margin-bottom: 120px;
 }
-.latest-deal-text h1{
-    color: #000000;
-    font-size: 3rem;
-    font-weight: 700;
+.latest-deal-text h1 {
+  color: #000000;
+  font-size: 3rem;
+  font-weight: 700;
 }
-.discount-offer{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 200px);
-    gap: 20px;
-    
+.discount-offer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 200px);
+  gap: 20px;
 }
-.discount-offer h4, a{
-    color: rgb(255, 255, 255);
-    font-weight: 700;
-    font-size: 1.25rem;
+.discount-offer h4,
+a {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 1.25rem;
 }
-.bloom-plant{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../assets/deal-bloom.png);
-  
+.bloom-plant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/deal-bloom.png);
+  border-radius: 22px;
 }
-.ana-plant{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../assets/deal-zabo.png);
-    grid-row: span 2;
+.ana-plant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image:url(../assets/deal-ana.png);
+  height: 200px;
+  border-radius: 22px;
 }
-.zabo-plant{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
-    background-image: url(../assets/deal-ana.png);
-   
+.zabo-plant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../assets/deal-zabo.png);
+  grid-row: span 2;
+  border-radius: 22px;
 }
 /* latest deal section end  */
 
-
 /* join section styles  */
-.join{
-    width: 100%;
-    height: 530px;
-    background-image: url(../assets/news-letter-bg.png);
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.join {
+  width: 100%;
+  height: 530px;
+  background-image: url(../assets/news-letter-bg.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.join h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 23px;
+  text-align: center;
+}
+.input-btn {
+  display: flex;
+  /* gap: 0; */
+}
+input {
+  padding: 10px 80px 10px 20px;
+  outline: none;
+  border: none;
+}
+.btn-secondary {
+  background-color: #e95a08;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+}
+/* join section end  */
+
+/* footer section styles  */
+.footer{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 360px 100px 150px 100px;
+    gap: 110px;
+    align-items: start;
     margin-bottom: 50px;
 }
+ 
 
-.join  h1{
-    font-weight: 700;
-    font-size: 3rem;
-    color: white;
-    margin-bottom: 23px;
-    text-align: center;
+.footer-logo{
+    flex-direction: column; 
 }
-.input-btn{
-    display: flex;
-    /* gap: 0; */
+.footer-logo img{
+width: 50%;
+height: 50%;
 }
- input{
-    padding: 10px 80px 10px 20px;
-    outline: none;
-    border: none;
+.footer ul li{
+    list-style: none;
 }
-.btn-secondary{
-    background-color: #E95A08;
-    color: white;
-    padding: 10px 25px;
-    border: none;
-} 
+.footer ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+.home-items{
+    flex-direction: column;
+    gap: 30px;
+    justify-content: start;
+    align-items: start;
+    text-align: left;
+    
+}
+.feature-items{
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 30px;
+    text-align: left;
+}
+.icon{
+    gap: 10px;
+    
+}
+.icon img{
+    height: 25px;
+    width: 25px;
+}
+
+
 
 /* responsiveness for mobile device */
 @media screen and (max-width: 576px) {
-    header {
-        width: 400px;
+    body{
+         text-align: center;
     }
+  header {
+    width: 400px;
+  }
 
-    .hidden {
-        display: none;
-    }
+  .hidden {
+    display: none;
+  }
 
-    .banner {
-        flex-direction: column-reverse;
-    }
-    .plants-cards{
-        grid-template-columns: repeat(2,1fr);
-    }
-    .flower-lover{
-        flex-direction: column;
-    }
-    .challenge{
-        display: none;
-    }
-    .discount-offer{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    
-    /* .ana-plant{
-        grid-row: 1;
-    } */
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .plants-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .flower-lover {
+    flex-direction: column;
+   
+  }
+  .challenge {
+    display: none;
+  }
+  .discount-offer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+   justify-items: start;
+   padding: 10px;
+  }
+  
+
+  
 }
